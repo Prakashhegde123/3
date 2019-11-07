@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,6 +45,7 @@
         </LinearLayout>
 
         <ImageView
+            tools:ignore="ContentDescription"
             android:id="@+id/image"
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -104,6 +106,7 @@
             <View style="@style/Divider" />
 
             <EditText
+                tools:ignore="Autofill"
                 android:id="@+id/description_id"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
@@ -111,17 +114,16 @@
                 android:fontFamily="@font/poppins_medium"
                 android:gravity="start"
                 android:hint="@string/des"
+
                 android:inputType="textCapSentences|textMultiLine"
-                android:maxLength="300"></EditText>
+                android:maxLength="300">
+
+            </EditText>
         </LinearLayout>
 
         <View style="@style/Divider" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="horizontal">
+
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -135,7 +137,7 @@
                     android:checked="true"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/rb1"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <RadioButton
                     android:id="@+id/rb2"
@@ -144,17 +146,17 @@
                     android:checked="false"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/rb2"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
             </RadioGroup>
-        </LinearLayout>
+
 
         <View style="@style/Divider" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:orientation="vertical">
 
@@ -164,7 +166,22 @@
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/contacts"
                 android:textColor="#000000"
-                android:textSize="26sp"></TextView>
+                android:textSize="26sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_91"
+                    android:fontFamily="@font/poppins_medium">
+
+                </TextView>
 
             <EditText
                 android:id="@+id/et_contact"
@@ -173,10 +190,12 @@
                 android:cursorVisible="true"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="phone"
-                android:maxLength="13"
-                android:text="@string/contact">
+                tools:ignore="Autofill"
+                android:hint="@string/number"
+                android:maxLength="13">
 
             </EditText>
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -195,7 +214,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/poppins_medium"
                 android:padding="8dp"
-                android:text="Submit"
+                android:text="@string/submit"
                 android:textAllCaps="false">
 
             </Button>

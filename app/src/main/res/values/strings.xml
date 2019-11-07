@@ -8,8 +8,9 @@
     <string name="rb1">Free</string>
     <string name="rb2">Paid</string>
     <string name="contacts">Contact</string>
-    <string name="contact">+91 </string>
-    <string name="submit_button">SUBMIT </string>
+    <string name="contact_91">+91</string>
+    <string name="submit">SUBMIT </string>
+    <string name="number">enter your phone number</string>
     <string-array name="Spinner_items">
         <item>1</item>
         <item>2</item>
