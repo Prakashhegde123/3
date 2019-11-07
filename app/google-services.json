@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175629836215",
+    "firebase_url": "https://hackman-99a7c.firebaseio.com",
+    "project_id": "hackman-99a7c",
+    "storage_bucket": "hackman-99a7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175629836215:android:df9a4a57f76b2dfe269232",
+        "android_client_info": {
+          "package_name": "com.example.hackman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175629836215-490ni3k14kpit618u07v3voffu2v48c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackman",
+            "certificate_hash": "04dc30b37860b62ffef10ace573aeb5c35cce069"
+          }
+        },
+        {
+          "client_id": "175629836215-1k2eq46p6n5smqmcura30rffshksfoip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8VvQAUQYAp1RDdRyIa7FXJoMY8FKDLaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175629836215-1k2eq46p6n5smqmcura30rffshksfoip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

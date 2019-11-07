@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HACKMAN</string>
+    <string name="semester">Choose Semester</string>
+    <string name="Image">Choose Image</string>
+    <string name="pick">Browse</string>
+    <string name="branch">Choose Branch</string>
+    <string name="des">Description</string>
+    <string name="rb1">Free</string>
+    <string name="rb2">Paid</string>
+    <string name="contacts">Contact</string>
+    <string name="contact">+91 </string>
+    <string name="submit_button">SUBMIT </string>
+    <string-array name="Spinner_items">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="Spinner_branch_items">
+        <item>ISE</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>CIV</item>
+        <item>MECH</item>
+
+    </string-array>
+</resources>
